@@ -7,8 +7,6 @@ services:
     image: weslleylage/fullcycle-module-docker-nginx-node
     container_name: fullcycle-module-docker-nginx-node
     tty: true
-    volumes:
-      - ./app:/usr/src/app
     networks: 
       - app-node-network
     depends_on:
